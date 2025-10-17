@@ -1,0 +1,22 @@
+# 核心多智能体框架
+crewai==0.28.8
+crewai-tools==0.1.6
+
+# 基础依赖
+numpy==1.24.3
+asyncio==3.4.3
+pydantic==2.5.0
+
+# 模型接口支持 (可选安装)
+# openai==1.3.0  # 如果使用OpenAI API
+# transformers==4.36.0  # 如果使用HuggingFace模型
+# torch==2.1.0  # 如果使用本地模型
+# requests==2.31.0  # 如果使用Ollama
+
+# 配置和日志
+pyyaml==6.0.1
+loguru==0.7.2
+
+# 开发工具 (可选)
+# pytest==7.4.3
+# black==23.11.0
