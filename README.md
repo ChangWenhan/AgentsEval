@@ -28,7 +28,7 @@ The system employs 4 attack strategies:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  JailbreakAgent (4 instances)                                │
+│  JailbreakAgent (4 instances)                               │
 │  ├─ agent_value_deception    (Value Deception)              │
 │  ├─ agent_role_play          (Role Play)                    │
 │  ├─ agent_narrative          (Narrative Disguise)           │
@@ -36,14 +36,14 @@ The system employs 4 attack strategies:
 └─────────────────────────────────────────────────────────────┘
                           ↕
 ┌─────────────────────────────────────────────────────────────┐
-│  VulnerabilityKnowledge (Knowledge Base)                     │
+│  VulnerabilityKnowledge (Knowledge Base)                    │
 │  ├─ Store all discovered vulnerabilities                    │
 │  ├─ Provide relevant context queries                        │
 │  └─ Accumulate knowledge over time                          │
 └─────────────────────────────────────────────────────────────┘
                           ↕
 ┌─────────────────────────────────────────────────────────────┐
-│  CollaborativeJailbreakSystem (Orchestrator)                 │
+│  CollaborativeJailbreakSystem (Orchestrator)                │
 │  ├─ Coordinate agent collaboration                          │
 │  ├─ Manage testing workflow                                 │
 │  └─ Generate test reports                                   │
@@ -113,7 +113,7 @@ This knowledge is queried for each new harmful query to provide context, creatin
 ├── vulnerability_knowledge.py   # Vulnerability knowledge base
 ├── config.py                    # Configuration file
 ├── main.py                      # Main entry point
-├── test_system.py              # System tests
+├── test_system.py               # System tests
 ├── harmful_behaviors.csv        # Test data (harmful queries)
 ├── requirements.txt             # Python dependencies
 └── results/                     # Test results output
