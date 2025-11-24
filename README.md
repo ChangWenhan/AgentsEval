@@ -1,6 +1,8 @@
-# Multi-Agent Collaborative Safety Testing System
+# [Multi-Agent Collaborative Safety Testing System](https://github.com/ChangWenhan/AgentsEval/blob/main/A%20Multi-Agent%20Collaborative%20Framework%20for%20Large%20Language%20Model%20Safety%20Stress%20Testing.pdf)
 
 A simplified and efficient multi-agent system for testing LLM security through collaborative jailbreak attacks.
+
+[Design Report Link](https://github.com/ChangWenhan/AgentsEval/blob/main/A%20Multi-Agent%20Collaborative%20Framework%20for%20Large%20Language%20Model%20Safety%20Stress%20Testing.pdf)
 
 ## Overview
 
