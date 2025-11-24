@@ -1,4 +1,4 @@
-# Multi-Agent Collaborative Jailbreak Testing System
+# Multi-Agent Collaborative Safety Testing System
 
 A simplified and efficient multi-agent system for testing LLM security through collaborative jailbreak attacks.
 
